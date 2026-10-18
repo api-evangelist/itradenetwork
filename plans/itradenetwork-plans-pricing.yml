@@ -1,0 +1,14 @@
+generated: '2026-10-18'
+method: searched
+name: iTradeNetwork pricing
+description: iTradeNetwork is an enterprise supply chain software company with custom pricing.
+source: https://www.itradenetwork.com
+audience: business-product
+pricing_basis: negotiated
+published: false
+plan_count: 0
+plans: []
+delivery:
+  mode: managed
+  evidence: Enterprise SaaS platform for supply chain management
+note: Searched iTradeNetwork website for pricing pages, plans, or tier information. No public pricing information was found. The company appears to use enterprise/custom pricing models typical for B2B supply chain software.

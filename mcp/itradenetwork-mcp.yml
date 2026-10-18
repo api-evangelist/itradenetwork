@@ -1,0 +1,23 @@
+name: iTradeNetwork MCP Server
+type: MCPServer
+generated: '2026-10-18'
+method: none
+status: absent
+description: >-
+  No official or hosted MCP server for iTradeNetwork was found, and no OpenAPI contract exists in this repo from which
+  to derive a candidate tool list, so no tools are recorded.
+deployment:
+  mode: none
+  auth: unknown
+  verified: probed
+tools: []
+evidence:
+- url: https://api.itradenetwork.com/mcp
+  status: 401
+  note: >-
+    POST tools/list returned 401 text/html; the pre-flight control path on the same host also returned 401, so the
+    edge authenticates every path before routing (opaque) and this is NOT evidence of an MCP server.
+- url: https://www.itradenetwork.com/llms.txt
+  status: 404
+- search: iTradeNetwork MCP server OR API developer documentation
+  result: no iTradeNetwork MCP server or developer documentation found (results were E*TRADE/HaasOnline projects)

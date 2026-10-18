@@ -1,0 +1,6 @@
+generated: '2026-10-18'
+method: none
+name: iTradeNetwork authentication
+description: No public authentication documentation was found for iTradeNetwork APIs.
+schemes: []
+note: Searched iTradeNetwork website and documentation for authentication schemes (API keys, OAuth2, etc.). No public API documentation was found. The API endpoint at api.itradenetwork.com returns 401 for all paths, indicating authentication is required but not documented publicly.

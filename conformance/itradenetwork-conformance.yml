@@ -1,0 +1,6 @@
+generated: '2026-10-18'
+method: none
+name: iTradeNetwork conformance
+description: No API conformance claims or domain standards were found for iTradeNetwork.
+standards: []
+note: Searched iTradeNetwork website and documentation for conformance claims (OAuth2, OIDC, FHIR, FAPI, SCIM, OData, PSD2, JSON:API, RFC9457, pagination, idempotency) and domain standards (EDI, GS1, FSMA 204 traceability standards). No public API documentation was found to make any conformance claims.

@@ -1,0 +1,56 @@
+generated: '2026-10-18'
+method: searched
+source:
+- https://www.itradenetwork.com/legal/privacy-policy
+- https://www.itradenetwork.com/legal/website-terms-of-use
+signals:
+  data_subject_request:
+    url: https://www.itradenetwork.com/legal/privacy-policy
+    section: 11. Supplemental U.S. States Privacy Disclosures
+    note: State-law rights to know, delete and correct, with an appeal path; requests by webform or privacy@itradenetwork.com.
+    channel: privacy@itradenetwork.com
+    evidence:
+    - source: https://www.itradenetwork.com/legal/privacy-policy
+      http_status: 200
+      fetched: '2026-10-18'
+      quote: You may have the right to request that we delete Personal Data that we have collected about you.
+    - source: https://www.itradenetwork.com/legal/privacy-policy
+      http_status: 200
+      fetched: '2026-10-18'
+      quote: If we deny your rights request, you may have the right to appeal. To submit an appeal, contact us at privacy@itradenetwork.com
+        We will inform you in writing our response to your appeal.
+  data_retention:
+    url: https://www.itradenetwork.com/legal/privacy-policy
+    section: 7. Protecting Personal Data.
+    note: Purpose-bound retention with no fixed periods stated; refers to internal retention procedures.
+    evidence:
+    - source: https://www.itradenetwork.com/legal/privacy-policy
+      http_status: 200
+      fetched: '2026-10-18'
+      quote: Your Personal Data will be retained as long as necessary to fulfill the purposes we have outlined above unless
+        we are required to do otherwise by applicable law.
+  global_privacy_control:
+    url: https://www.itradenetwork.com/legal/privacy-policy
+    section: 11. Supplemental U.S. States Privacy Disclosures
+    note: Commits to honoring opt-out preference signals (e.g. GPC) where required by law, at browser level; GPC is not named
+      explicitly.
+    evidence:
+    - source: https://www.itradenetwork.com/legal/privacy-policy
+      http_status: 200
+      fetched: '2026-10-18'
+      quote: To the extent required by law, we will honor opt-out preference signals sent in a format commonly used and recognized
+        by businesses, such as an HTTP header field or JavaScript object. We will process opt-out preference signals at the
+        browser level.
+  age_assurance:
+    url: https://www.itradenetwork.com/legal/privacy-policy
+    section: 8. Children.
+    note: Self-declared 18+ audience; no age-verification mechanism described, only deletion on notice.
+    evidence:
+    - source: https://www.itradenetwork.com/legal/privacy-policy
+      http_status: 200
+      fetched: '2026-10-18'
+      quote: The Digital Properties are not directed at, marketed to, nor intended for, children under 18 years of age.
+note: Read the privacy policy and website terms of use (both 200). No subprocessor list, data-residency statement, incident-notification
+  commitment, accessibility conformance report, SBOM or transparency report was found; the terms of use speak to none of the
+  catalog signals. The policy also lists a right not to be subject to solely automated decisions, but no AI-transparency disclosure
+  for its AI Order Agent.

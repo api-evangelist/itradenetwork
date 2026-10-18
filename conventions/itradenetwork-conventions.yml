@@ -1,0 +1,9 @@
+generated: '2026-10-18'
+method: none
+name: iTradeNetwork conventions
+description: No public API conventions documentation was found for iTradeNetwork.
+idempotency:
+  coverage: na
+  reason: No public API documentation found
+pagination: unknown
+note: Searched iTradeNetwork website and documentation for API conventions (auth style, idempotency, pagination, field expansion, metadata, request-id tracing, versioning, error-envelope shape, rate-limit signaling). No public API documentation was found.

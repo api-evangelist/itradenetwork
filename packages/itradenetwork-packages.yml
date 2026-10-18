@@ -1,0 +1,6 @@
+generated: '2026-10-18'
+method: none
+name: iTradeNetwork packages
+description: No first-party SDKs or client libraries were found published by iTradeNetwork.
+packages: []
+note: Searched npm, PyPI, Maven Central, NuGet, pkg.go.dev, RubyGems, Packagist, crates.io and the iTradeNetwork website for SDKs or client libraries. No public SDKs were found. iTradeNetwork appears to be a traditional enterprise supply chain software company that doesn't publish public API client libraries.

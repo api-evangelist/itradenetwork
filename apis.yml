@@ -1,23 +1,91 @@
 aid: itradenetwork
+
 name: iTradeNetwork
-description: 'iTradeNetwork is a company surfaced via the API Evangelist harvest backlog (source: kin-score-markets)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: iTradeNetwork is a perishables supply chain management company serving the food and beverage industry. Per its
+  website it offers end-to-end solutions for procurement, quality, traceability and spend management, including an Order Management
+  System (OMS), EDI connectivity, FSMA 204 traceability, spend insights, MarginIQ trade reconciliation, freight and transportation
+  management, master data services, and the Cerena network for distributors, operators, manufacturers, retail grocers and
+  grower-shippers.
+
 url: https://raw.githubusercontent.com/api-evangelist/itradenetwork/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:kin-score-markets
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-18 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-18'
+
 modified: '2026-10-18'
+
 tags:
 - Company
-apis: []
+- Supply Chain
+- Food and Beverage
+- Perishables
+- Procurement
+- Traceability
+- EDI
+- Order Management
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
+image: https://cdn.prod.website-files.com/652b02e6e4e95fb82fe25280/660da2a5ac31ea54fc844164_Social%20Share.webp
+
 common:
+- type: Hosts
+  url: hosts/itradenetwork-hosts.yml
+- type: Vendors
+  url: vendors/itradenetwork-vendors.yml
+- type: Pricing
+  url: https://www.itradenetwork.com/partners/price-chopper
+- type: GitHubOrganization
+  url: https://github.com/iTradeNetwork
+- type: DomainSecurity
+  url: security/itradenetwork-domain-security.yml
 - type: Website
-  url: https://itradenetwork.com
+  url: https://www.itradenetwork.com
+- type: Support
+  url: https://www.itradenetwork.com/support/customer-support
+- type: Blog
+  url: https://www.itradenetwork.com/resources
+- type: AboutUs
+  url: https://www.itradenetwork.com/about-us
+- type: ContactUs
+  url: https://www.itradenetwork.com/contact-us
+- type: TermsOfService
+  url: https://www.itradenetwork.com/legal/website-terms-of-use
+- type: PrivacyPolicy
+  url: https://www.itradenetwork.com/legal/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/itradenetwork/
+- type: YouTube
+  url: https://www.youtube.com/c/iTradeNetworkInc
+
+apis: []
+
+x-coverage:
+  state: covered
+  reason: identity-verified
+  detail: Website itradenetwork.com self-identifies as iTradeNetwork (title "iTradeNetwork - Leading Perishables Supply Chain
+    Management Solutions"). No developer portal, API docs, pricing, login or GitHub org found on the site or sitemap.
+  evidence:
+  - url: https://www.itradenetwork.com/
+    status: 200
+  - url: https://www.itradenetwork.com/sitemap.xml
+    status: 200
+x-enrichment:
+  date: '2026-10-18'
+  status: enriched
+  artifacts_added: 21
+  pass: modular-v1
+  engine: identity=anthropic,contract=anthropic,surfaces=anthropic,docs=deepseek,regulatory=anthropic

@@ -1,0 +1,22 @@
+generated: '2026-10-18'
+method: none
+source:
+- https://zapier.com/apps/itradenetwork/integrations
+- https://n8n.io/integrations/itradenetwork/
+- https://composio.dev/toolkits/itradenetwork
+- https://monid.ai/tools/itradenetwork
+checked:
+- https://composio.dev/toolkits/itradenetwork
+- https://make.com/en/integrations/itradenetwork
+- https://monid.ai/tools/itradenetwork
+- https://n8n.io/integrations/itradenetwork/
+- https://www.itradenetwork.com
+- https://www.itradenetwork.com/cerena-ai-marketplace
+- https://zapier.com/apps/itradenetwork/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
+note: Searched iTradeNetwork website for integration partners, marketplace listings, or ecosystem pages. The company
+  mentions EDI connectivity and enterprise integrations but doesn't publish a public integration marketplace or
+  partner directory. Checked Zapier and Make.com but found no iTradeNetwork integrations listed.
