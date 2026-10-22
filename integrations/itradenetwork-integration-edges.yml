@@ -1,5 +1,5 @@
 generated: '2026-10-18'
-method: none
+method: searched
 source:
 - https://zapier.com/apps/itradenetwork/integrations
 - https://n8n.io/integrations/itradenetwork/
@@ -10,12 +10,70 @@ checked:
 - https://make.com/en/integrations/itradenetwork
 - https://monid.ai/tools/itradenetwork
 - https://n8n.io/integrations/itradenetwork/
+- https://www.gs1.org/services/gdsn/certified-data-pools-list
+- https://www.gs1us.org/services/find-gs1-us-solution-partner/profiles
 - https://www.itradenetwork.com
 - https://www.itradenetwork.com/cerena-ai-marketplace
+- https://www.spscommerce.com/partner-community/directory/
 - https://zapier.com/apps/itradenetwork/integrations
 summary: null
 marketplace_apps: []
-edges: []
+edges:
+- partner_name: GS1 GDSN (certified data pools)
+  partner: gs1
+  partner_match: register
+  type: register
+  direction: partner-built
+  evidence: https://www.gs1.org/services/gdsn/certified-data-pools-list
+  category: GDSN data pool
+  channel: standard-directory
+  relationship: standard-participant
+  contract_reference:
+    register: GS1 GDSN certified data pools (gs1.org/services/gdsn/certified-data-pools-list)
+    spec_file: null
+    standard: GS1 GDSN
+    role: GDSN certified data pool
+    registered_name: iTradeNetwork, Inc. (ITN_GDS)
+    data_pool: ITN_GDS
+    website: http://www.itradenetwork.com
+    matched_domain: itradenetwork.com
+    matched_by: domain
+    source_recipient: both
+    established_connections: 'ITN_GDS: 22'
+    gdm_2_4_compliant: true
+    certified_products:
+    - product: Item
+      lapsed: false
+    signal_note: certified_products = one entry per GS1-certified GDSN FUNCTIONALITY (Item, Price); established_connections
+      and GDM compliance are context, never read
+    detected_by: sweep-consumer-goods.py
+    detected: '2026-10-19'
+  detected_by: sweep-consumer-goods.py
+  first_seen: '2026-10-19'
+- partner_name: GS1 GDSN (certified data pools)
+  partner: gs1
+  partner_match: register
+  type: register
+  direction: partner-built
+  evidence: https://www.gs1.org/services/gdsn/certified-data-pools-list
+  category: GDSN data pool
+  channel: standard-directory
+  relationship: compatible
+  shape: gdsn
+  evidence_kind: conformance-register
+  degree: certified
+  report_only: true
+  contract_reference:
+    register: GS1 GDSN certified data pools (gs1.org/services/gdsn/certified-data-pools-list)
+    spec_file: null
+    standard: GS1 GDSN
+    role: gdsn-certified-data-pool
+    registered_name: iTradeNetwork, Inc. (ITN_GDS)
+    matched_domain: itradenetwork.com
+    detected_by: sweep-consumer-goods.py
+    detected: '2026-10-19'
+  detected_by: sweep-consumer-goods.py
+  first_seen: '2026-10-19'
 templates: []
 note: Searched iTradeNetwork website for integration partners, marketplace listings, or ecosystem pages. The company
   mentions EDI connectivity and enterprise integrations but doesn't publish a public integration marketplace or
